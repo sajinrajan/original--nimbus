@@ -1,0 +1,320 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;padding: 0;
+    box-sizing: border;
+    outline: none;border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.top-bar {
+display: flex;
+width: 100%;
+height: 70px;
+background-color: #8aaab1;
+justify-content: space-between;
+
+}
+nav a{
+  
+    padding: 0 23px;
+    color: rgb(0, 0, 0);
+   margin-top: 44px;
+    font-size: 18PX;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+    text-transform: none;
+    position: relative;
+    top: 20px;
+ }
+ nav a:hover{
+    color: blueviolet;
+    border: 1px solid rgb(50, 7, 7) ;
+    transition: .5s;
+    
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 45px;
+    margin-top: 15px;
+     padding: 5px;
+    color: black;
+} 
+.list{
+    position: absolute;
+     left: 1450px; 
+     top: 0px;
+    line-height: 70px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  
+} 
+
+h4{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    left: 100px;
+    top: 25px;
+    color: black;
+}
+.downlod-cv{
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+    position: absolute;
+    left: 400px;
+    top: 450px;
+    text-align: center;
+}
+ .heri-me{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 580px;
+    top: 450px;
+    text-align: center;
+ }
+ .icon{
+     position: absolute; 
+    left: 1070px; 
+    top: -10px;
+    font-size: 50px; 
+    text-decoration: none;
+    color: black;
+
+}
+.search{
+    position: absolute;
+    left: 190px;
+    top: 29px;
+}
+.ui-ul-designer{
+    width: 236px;
+    height: 107px;
+    background-color: rgb(190, 190, 154);
+    position: absolute;
+    left: 390px;
+    top: 539px;
+    text-align: center;
+}
+.photographer{
+    width: 236px;
+    height: 107px;
+    background-color: rgb(190, 190, 154);
+    position: absolute;
+    left: 750px;
+    top: 539px;
+    text-align: center;
+}
+.freelancer{
+    width: 236px;
+    height: 107px;
+    background-color: rgb(190, 190, 154);
+    position: absolute;
+    left: 1078px;
+    top: 539px;
+    text-align: center;
+}
+.box{
+    background: black;
+    color: white;
+    border: 9px solid black;
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+     left: 1285px; 
+     top: 15px;
+}
+.yello-gril{
+   max-width:550px;
+    height: 500px;
+    position: absolute;
+    left: 1054px;
+}
+.black-dot{
+  width:118px;
+    height: 250px;
+    position: absolute;
+    top: 220px;
+}
+.yello-grilthree{
+  width:600px;
+    height: 550px;
+    position: absolute;
+    left: 150px;
+   top: 650px;
+}
+.black-dottwo{
+    
+    position: absolute;
+    left: 1443px;
+    top: 743px;
+    width: 5%;
+    height: 22%;
+}
+.ui-ux-ameil-nimbus{
+    position: absolute;
+    left: 400px;
+    top: 190px;
+    z-index: unset;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+.ui-ux{
+    color: rgba(255, 251, 18, 0.966);
+    position: absolute;
+    left: 400px;
+    top: 230px;
+}
+.ui-ux-content{
+    font-size: 10px;
+}
+h5{
+    position: absolute;
+    left: 400px;
+    top: 270px;
+    font-size: 10px; 
+
+}
+.text-content{
+    margin-left: -10px;
+}
+.mail{
+    position: absolute;
+    left: 400px;
+    top: 350px;
+   
+}
+.bancking{
+  
+    position: absolute;
+    left: 600px;
+    top: 350px;
+
+}
+
+.need-content{
+    max-width: 27%;
+    position: absolute;
+    top: 820px;
+    left: 935px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.need-creative-content{
+    max-width: 22%;
+    position: absolute;
+    top:913px;
+    left: 935px;
+    font-size: 8px;
+}
+.you-can-follow-me{
+    max-width: 22%;
+    position: absolute;
+    top:990px;
+    left: 935px;
+    font-size: 18px;
+}
+.app-for-k-alex{
+    position: absolute;
+    top:1020px;
+    left: 935px;
+    font-size: 20px;
+}
+.skills-content{
+    position: absolute;
+    max-width: 22%;
+    top: 200%;
+    left: 450px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 45px;
+    
+}
+.skills-creative{
+    position: absolute;
+    max-width: 25%;
+    top: 215%;
+    left: 450px;
+    font-size: 10px;
+}
+.colour-box{
+    position: absolute;
+    top: 230%;
+    left: 450px;
+    width: 20%;
+    height: 50%;
+}
+.one-box-uiux{
+    width: 12%;
+    height: 20%;
+    background-color: rgb(223, 215, 215);
+    position: absolute;
+    top: 200%;
+    left: 950px;
+}
+
+.two-box-graphic{
+    width: 12%;
+    height: 20%;
+    background-color: rgb(223, 215, 215);
+    position: absolute;
+    top: 200%;
+    left: 1160px;
+}
+.three-box-motion{
+    width: 12%;
+    height: 20%;
+    background-color: rgb(223, 215, 215);
+    position: absolute;
+    top: 224%;
+    left: 950px;
+}
+.four-box-photo{
+    width: 12%;
+    height: 20%;
+    background-color: rgb(223, 215, 215);
+    position: absolute;
+    top: 224%;
+    left: 1160px;
+}
+.four-sty-icon{
+    position: absolute;
+    left: 80px;
+    top: 50px;
+}
+.four-text-sty{
+    font-size: 18px;
+    position: absolute;
+    top: 98px;
+    left: 35px;
+    color: black;
+}
+
+@media(max-width:1048px){
+    h4.logo{
+       
+        font-size: 32px;
+        padding-left:60px ;
+    }
+    nav a{
+        margin-right:20px ;
+        font-size: 17px;
+
+    }
+}
+@media(max-width:909px){
+    nav a{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2f362f;
+        top: 80;
+        left: 0;
+        text-align: center;
+        display: block;
+
+    }
+}
